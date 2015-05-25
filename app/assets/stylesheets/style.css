@@ -11,6 +11,7 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	font-family: Oswald;
 }
 
 h1 { 
@@ -33,7 +34,7 @@ h2 {
 	padding: 0;
 }
 
-h3 {
+h3{
    font-family: Oswald;
    font-weight: normal;
    font-size: 16px;
@@ -47,6 +48,8 @@ h3 {
 h1.intro_red{
 	color: red;
 }
+
+
 
 
 .center { margin: 0 auto; }
@@ -87,6 +90,73 @@ a.rpanel:hover{ color: #fff; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: red; opacity:1;  }
 
+/*= CONTACT SLIDE
+--------------------------------------------------------*/
+
+  
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+#primary{
+    width:50%;
+    float: left;
+    text-align: left;
+    padding-right: 10px;
+    margin-left: 50px;
+
+  }
+  #primary h3 {
+  	text-align: left;
+  }
+
+  
+  #secondary {
+    width: 40%;
+    float: right;
+    text-align: left;
+     
+  }
+
+  #secondary h3 {
+  	text-align: left;
+  }
+
+.contact-info li.mail a {
+  background-image: url('mail.png');
+  color: black;
+  text-decoration:none;
+  
+/*  -webkit-filter: invert(100%);*/
+}
+
+.contact-info li.twitter a {
+  background-image: url('twitter.png');  
+  color: black;
+  text-decoration:none;
+  display: block;
+ /* -webkit-filter: invert(100%);*/
+}
+
+.contact-info li.github a {
+  background-image: url('github.png');
+  color: black;
+  text-decoration:none;
+  display: block;
+ /* -webkit-filter: invert(100%);*/
+}
 
 
 /*= QUOTES AND SOME ELEMENTS
