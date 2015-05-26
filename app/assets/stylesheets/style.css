@@ -151,43 +151,27 @@ a.rpanel:hover{ color: #fff; }
  /* -webkit-filter: invert(100%);*/
 }
 
+.text_portfolio {
+  text-align: center;
+}
+
 .portfolio {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
+
+  margin-left: 20%;
 }
 
 
-.portfolio a {
- background-size: auto;
-  background-repeat:no-repeat;
-
-}
-
-.portfolio li.flix a {
-  background-image: url('official_rubyist_thumb_sidebar.png');
-  color: black;
-  text-decoration:none;
+.image {
+  float: left;
+  max-height: 25%;
+  max-width: 25%;
   display: block;
- /* -webkit-filter: invert(100%);*/
+  margin-right: 20px;
+  border-radius: 25px;
+
 }
 
-.portfolio li.event a {
-  background-image: url('home-by-now.png');
-  color: black;
-  text-decoration:none;
-  display: block;
- /* -webkit-filter: invert(100%);*/
-}
 
-.portfolio li.sampleapp a {
-  background-image: url('the_rubyist_thumb_sidebar.png');
-  color: black;
-  text-decoration:none;
-  display: block;
- /* -webkit-filter: invert(100%);*/
-}
 
 
 
