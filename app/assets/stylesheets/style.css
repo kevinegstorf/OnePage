@@ -151,31 +151,6 @@ a.rpanel:hover{ color: #fff; }
  /* -webkit-filter: invert(100%);*/
 }
 
-.text_portfolio {
-  text-align: center;
-}
-
-.portfolio {
-
-  margin-left: 20%;
-}
-
-
-.image {
-  float: left;
-  max-height: 25%;
-  max-width: 25%;
-  display: block;
-  margin-right: 20px;
-  border-radius: 25px;
-
-}
-
-
-
-
-
-
 /*= QUOTES AND SOME ELEMENTS
 --------------------------------------------------------*/
 .quotes {   
