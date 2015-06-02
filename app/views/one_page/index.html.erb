@@ -5,11 +5,9 @@
 
 <nav id="nav">
 	<ul>
-		<!-- <li><a href="#slide1" class="active" title="Next Section" >main</a></li> -->
 		<li><a href="#slide2" title="Next Section">About me</a></li>
 		<li><a href="#slide3" title="Next Section">Portfolio</a></li>
 		<li><a  href="#slide4" title="Next Section">Contact</a></li>
-		<!-- <li><a href="#slide5" title="Next Section">Slide 5</a></li> -->
 	</ul>
 </nav>
 </div>
@@ -21,15 +19,13 @@
 <!--SLIDES START-->  	
 <div id="slide1">
 	<div class="content">
-	<!-- <div id="christmas_tree"> </div> -->
-	<!-- 	<div id="snowflakes1"></div>
-	<div id="snowflakes2"></div> -->
+		
+
+
     <h2>Hi, my name is Kevin</h2>
 	<h1 class = "intro_red">I develop</h1>
-	<!--  <div id="divider"> </div> -->
 	<h3>apps and websites using ruby on rails</h3>
-    <!-- <div id="ribbon"></div> -->
-	<!-- <div id="new_year"> </div> -->
+
 	</div> 
 </div> 
 
@@ -37,13 +33,13 @@
 	<div class="content" >
     <div class="quotes_container">
 	<h3 class="quotes">“Coming Soon!”</h3>
-	<!-- <img src="dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4> -->
 	</div> 
 	</div> 
 </div> 
 	
 <div id="slide3">
 	<div class="content">
+		
 	<!-- <div class="quotes_container"> -->
 	<h3>Recent Projects</h3>
 	<p> Besides this "Awesome" portfolio website i have made </p>
@@ -80,25 +76,6 @@
 							<div><span>Lotto app</span></div>
 						</a>
 					</li>
-					<!-- <li>
-						<a href="http://dribbble.com/shots/502927-My-Muse">
-							<%= image_tag("6.jpg", :alt => "pic one") %>
-							<div><span>My Muse by Zachary Horst</span></div>
-						</a>
-					</li>
-					<li>
-						<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
-							<%= image_tag("7.jpg", :alt => "pic one") %>
-							<div><span>Natalie & Justin Cleaning by Justin Younger</span></div>
-						</a>
-					</li>
-					<li>
-						<a href="http://dribbble.com/shots/502523-App-Preview">
-							<%= image_tag("8.jpg", :alt => "pic one") %>
-							<div><span>App Preview by Ryan Deshler</span></div>
-						</a>
-					</li> -->
-	
 				</ul>
 			</section>
        
@@ -121,21 +98,20 @@
 
     </div>
        </div>
+
+
+	<!-- scrolldeck script -->
+	<script>
+		$(document).ready(function() {
+			
+			var deck = new $.scrolldeck({
+				buttons: '.nav-button',
+				easing: 'easeInOutExpo'
+			});
+			
+		});
+	</script>
      
      
 
 	
-	<!-- 
-	<div id="slide5">
-		<div class="content">
-           <div class="quotes_container">
-		    <h3 class="quotes">“My idea of Christmas, whether old-fashioned or modern, is very simple: loving others. Come to think of it, why do we have to wait for Christmas to do that?” </h3>
-		    <img src="bob.png" align="left"/> <h4 class="author_name_white">Bob Hope </h4>
-		  </div> -->
-<!-- 		<div id="copyright"><a href="http://www.railsdevkev.com/">Copyright railsdevkev.com </a></div>  
-		</div> 
-		
-
-    </div>  
-	 -->
-
